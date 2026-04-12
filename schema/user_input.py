@@ -1,4 +1,4 @@
-from typing import Annotated, Literal, List, Dict
+from typing_extensions import Annotated, Literal, List, Dict
 from pydantic import BaseModel, Field, computed_field, field_validator
 from config.city_tier import tier_1_cities, tier_2_cities
 
